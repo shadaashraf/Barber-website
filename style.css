@@ -1,0 +1,77 @@
+.navbar-brand
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+   
+    margin-left: 15px;
+    
+}
+/*navbar items*/
+li 
+{
+    font-size: 20px;
+    margin-left: 20px;
+    font-style: italic;
+  
+}
+li:hover{
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.629);
+    transition: 0.8s;
+    border-radius:20px ;
+}
+
+.active{
+    border-radius: 7px ;
+    background-color: #d3bb9b;
+}
+
+/*navbar over slide show*/
+.my_nav{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+#first_section{
+    margin-top: 40px;
+    height: 600px;
+}
+#logo2
+{
+    margin-left: 70px;
+}
+.btn{
+  margin-left: 200px;
+}
+#sec-section{
+    margin-top: 80px;
+    background-color: #f0d9bc; 
+    height: 600px;
+}
+#thr-section{
+    height: 600px;
+}
+.barbers{
+   margin-left: 32%;
+   margin-bottom: 50px;
+   font-size:70px;
+   font-style: italic;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: lighter;
+}
+.card{
+    border-color: gray;
+}
+.rounded{
+   border-radius:  47% 10% 73% 75% / 37% 10% 44% 10% ; 
+}
+footer{
+    color: white;
+    padding: 90px 90px 10px 90px;
+    background-color: rgba(10, 17, 17, 0.863);
+    height: 350px;
+    
+}
+
